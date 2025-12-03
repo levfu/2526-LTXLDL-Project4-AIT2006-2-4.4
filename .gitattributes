@@ -1,3 +1,10 @@
+# BẬT TÍNH NĂNG TỰ ĐỘNG XỬ LÝ TEXT CHO TẤT CẢ FILE (TRỪ FILE LFS)
+* text=auto
+
+# CẤU HÌNH GIT LFS CHO CÁC FILE LỚN (VECTOR VÀ DỮ LIỆU)
+# Các file CSV chứa dữ liệu lớn của Airbnb
 *.csv filter=lfs diff=lfs merge=lfs -text
+# Các file CSV đã nén (dữ liệu raw)
 *.csv.gz filter=lfs diff=lfs merge=lfs -text
+# Các file biểu đồ (Visualization) dạng vector
 *.pdf filter=lfs diff=lfs merge=lfs -text
