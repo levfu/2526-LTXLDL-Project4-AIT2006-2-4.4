@@ -133,7 +133,7 @@ Các file CSV trong /reports/
 
 ## 6. Danh sách biểu đồ
 * Kết quả đầu ra trong /figures/ bao gồm:
-1. Biểu đồ của thành phố Brussels
+1. Biểu đồ của thành phố Brussels:
 ```text
 brussels_01_supply.pdf
 brussels_02_price.pdf
@@ -146,7 +146,7 @@ brussels_08_price_distribution.pdf
 brussels_09_price_heatmap.pdf
 ```
 
-2. Biểu đồ của thành phố Berlin
+2. Biểu đồ của thành phố Berlin:
 ```text
 berlin_01_supply.pdf
 berlin_02_price.pdf
@@ -159,7 +159,7 @@ berlin_08_property_type.pdf
 berlin_09_price_segments.pdf
 ```
 
-3. Biểu đồ của thành phố Paris
+3. Biểu đồ của thành phố Paris:
 ```text
 paris_01_supply.pdf
 paris_02_price.pdf
@@ -172,7 +172,7 @@ paris_08_price_distribution.pdf
 paris_09_price_heatmap.pdf
 ```
 
-4. Biểu đồ so sánh tổng hợp 3 thành phố Brussels, Berlin, Paris
+4. Biểu đồ so sánh tổng hợp 3 thành phố Brussels, Berlin, Paris:
 ```text
 H01_Total_Supply_All_Snapshots.pdf
 H02_Median_Price_Horizontal.pdf
