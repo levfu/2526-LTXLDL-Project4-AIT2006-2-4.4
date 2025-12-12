@@ -1,4 +1,4 @@
-#  Inside Airnb 
+#  Inside Airbnb 
 ###  Dự án phân tích dữ liệu đặt phòng khách sạn theo thời gian / thành phố 
 Mục tiêu: Phân tích xu hướng nguồn cung, giá cả, và hiệu suất hoạt động của thị trường Airbnb tại 3 thành phố Brussels , Berlin và Paris.
 
@@ -16,11 +16,11 @@ Mục tiêu: Phân tích xu hướng nguồn cung, giá cả, và hiệu suất 
 ---
 
 ## 1. Giới thiệu
-* Dự án sử dụng dữ liệu từ Inside Airnb - một trang web cung cấp các snapshot dữ liệu Airnb theo thành phố và theo thời điểm thu thập (collection date). Các tệp thường ở định dạng CSV (đôi khi kèm gz), bao gồm listings (thông tin chỗ ở và giá), calendar (tính sẵn sàng và giá theo ngày), reviews (đánh giá) và neighbourhoods (ranh giới khu vực GeoJSON/CSV) tùy thành phố.
+* Dự án sử dụng dữ liệu từ Inside Airbnb - một trang web cung cấp các snapshot dữ liệu Airnb theo thành phố và theo thời điểm thu thập (collection date). Các tệp thường ở định dạng CSV (đôi khi kèm gz), bao gồm listings (thông tin chỗ ở và giá), calendar (tính sẵn sàng và giá theo ngày), reviews (đánh giá) và neighbourhoods (ranh giới khu vực GeoJSON/CSV) tùy thành phố.
 
-* Trang tải dữ liệu chính thức : https://insideairbnb.com/get-the-data/
+* Trang tải dữ liệu chính thức: https://insideairbnb.com/get-the-data/
 
-* Tài liệu khám phá : https://insideairbnb.com/explore
+* Tài liệu khám phá: https://insideairbnb.com/explore
 
 
 * Dữ liệu sau khi được xử lý của các thành phố sẽ được dùng để trả lời cho các câu hỏi:
