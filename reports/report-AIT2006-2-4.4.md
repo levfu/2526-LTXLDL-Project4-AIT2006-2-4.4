@@ -19,7 +19,12 @@
 </div>
 <div style="page-break-after: always;"></div>
 
-## A. THÔNG TIN CƠ BẢN
+<div style="text-align: center; margin-top: 60%;">
+  <h2>A. THÔNG TIN CƠ BẢN</h2>
+</div>
+
+<div style="page-break-after: always;"></div>
+
 
 
 * **Tên dự án:** Inside Airbnb - Phân tích dữ liệu đặt phòng khách sạn theo thời gian / thành phố.
@@ -54,7 +59,12 @@
 <div style="page-break-after: always;"></div>
 
 
-## B. GIỚI THIỆU & DỮ LIỆU
+<div style="text-align: center; margin-top: 60%;">
+  <h2>B. GIỚI THIỆU & DỮ LIỆU</h2>
+</div>
+
+<div style="page-break-after: always;"></div>
+
 
 ### B.1 Giới thiệu
 
@@ -70,7 +80,7 @@
 
 * **Mục tiêu:** So sánh sự biến động của thị trường Airbnb theo **thời gian** và **không gian** giữa 3 thành phố: **Brussels**, **Berlin** và **Paris**.
 
-
+---
 
 ### B.2 Dữ liệu
 
@@ -90,7 +100,12 @@
 
 <div style="page-break-after: always;"></div>
 
-## C. QUY TRÌNH QA & LÀM SẠCH DỮ LIỆU
+<div style="text-align: center; margin-top: 60%;">
+  <h2>C. QUY TRÌNH QA & LÀM SẠCH DỮ LIỆU</h2>
+</div>
+
+<div style="page-break-after: always;"></div>
+
 
 * **Chuẩn hóa giá:**
 1. Tách giá trị số từ chuỗi (loại bỏ `$`, `,`, ký tự không phải số).  
@@ -208,8 +223,12 @@
 
 
 
+<div style="text-align: center; margin-top: 60%;">
+  <h2>D. QUY TRÌNH TÍNH TOÁN KPI</h2>
+</div>
 
-## D. QUY TRÌNH TÍNH TOÁN KPI
+<div style="page-break-after: always;"></div>
+
 
 * **Tổng số listing hợp lệ (Total Listings):**
 1. Định nghĩa: Số lượng listings không bị gắn cờ QA (không lỗi giá và không lệch tọa độ).
@@ -438,132 +457,298 @@ $$
 
 <div style="page-break-after: always;"></div>
 
-## E. TRỰC QUAN HÓA 
-
-### E.1 Thành phố Brussels
-
-1. [H1. XU HƯỚNG TỔNG NGUỒN CUNG THEO THỜI GIAN](../figures/brussels_01_supply.pdf)
-
-2. [H2. XU HƯỚNG GIÁ THUÊ TRUNG VỊ THEO THỜI GIAN](../figures/brussels_02_price.pdf)
-
-3. [H3. TỶ LỆ CHỦ NHÀ CHUYÊN NGHIỆP THEO THỜI GIAN](../figures/brussels_03_multi_host.pdf)
-
-4. [H4. XU HƯỚNG ĐỘ SẴN SÀNG TRUNG VỊ THEO THỜI GIAN](../figures/brussels_04_availability.pdf)
-
-5. [H5. XU HƯỚNG TỶ LỆ LẤP ĐẦY THEO SNAPSHOT MỚI NHẤT](../figures/brussels_05_occupancy.pdf)
-
-6. [H6. CƠ CẤU LOẠI PHÒNG THEO THỜI GIAN](../figures/brussels_06_room_type.pdf)
-
-7. [H7. BẢN ĐỒ PHÂN BỐ GIÁ THUÊ TRUNG VỊ THEO SNAPSHOT MỚI NHẤT](../figures/brussels_07_map_labeled.pdf)
-
-8. [H8. TOP 10 KHU VỰC CÓ TỔNG NGUỒN CUNG CAO NHẤT THEO SNAPSHOT MỚI NHẤT](../figures/brussels_08_top10_supply.pdf)
-
-9. [H9. TOP 10 KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ CAO NHẤT THEO SNAPSHOT MỚI NHẤT](../figures/brussels_09_top10_price.pdf)
-
-10. [H10. PHÂN PHỐI GIÁ THUÊ DỰA TRÊN TỔNG NGUỒN CUNG THEO SNAPSHOT MỚI NHẤT](../figures/brussels_10_price_distribution.pdf)
-
-11. [H11. BIẾN ĐỘNG GIÁ THUÊ TRUNG VỊ TẠI CÁC KHU VỰC THEO THỜI GIAN](../figures/berlin_11_price_segments.pdf)
-
-12. [H12. XU HƯỚNG SỐ LƯỢNG REVIEW THEO SNAPSHOT MỚI NHẤT](../figures/brussels_12_reviews_trend.pdf)
+<div style="text-align: center; margin-top: 60%;">
+  <h2>E. TRỰC QUAN HÓA</h2>
+</div>
 
 <div style="page-break-after: always;"></div>
+
+
+### E.1 Thành phố Brussels
+[![H1. XU HƯỚNG TỔNG NGUỒN CUNG THEO THỜI GIAN](../figures/brussels_01_supply-page-00001.jpg)](../figures/brussels_01_supply.pdf)
+
+--- 
+
+[![H2. XU HƯỚNG GIÁ THUÊ TRUNG VỊ THEO THỜI GIAN](../figures/brussels_02_price-page-00001.jpg)](../figures/brussels_02_price.pdf)
+
+
+---
+
+
+[![H3. TỶ LỆ CHỦ NHÀ CHUYÊN NGHIỆP THEO THỜI GIAN](../figures/brussels_03_multi_host-page-00001.jpg)](../figures/brussels_03_multi_host.pdf)
+
+---
+
+
+[![H4. XU HƯỚNG ĐỘ SẴN SÀNG TRUNG VỊ THEO THỜI GIAN](../figures/brussels_04_availability-page-00001.jpg)](../figures/brussels_04_availability.pdf)
+
+---
+
+[![H5. XU HƯỚNG TỶ LỆ LẤP ĐẦY THEO SNAPSHOT MỚI NHẤT](../figures/brussels_05_occupancy-page-00001.jpg)](../figures/brussels_05_occupancy.pdf)
+
+---
+
+[![H6. CƠ CẤU LOẠI PHÒNG THEO THỜI GIAN](../figures/brussels_06_room_type-page-00001.jpg)](../figures/brussels_06_room_type.pdf)
+
+---
+
+
+[![H7. BẢN ĐỒ PHÂN BỐ GIÁ THUÊ TRUNG VỊ THEO SNAPSHOT MỚI NHẤT](../figures/brussels_07_map_labeled-page-00001.jpg)](../figures/brussels_07_map_labeled.pdf)
+
+
+---
+
+
+[![H8. TOP 10 KHU VỰC CÓ TỔNG NGUỒN CUNG CAO NHẤT THEO SNAPSHOT MỚI NHẤT](../figures/brussels_08_top10_supply-page-00001.jpg)](../figures/brussels_08_top10_supply.pdf)
+
+---
+
+
+[![H9. TOP 10 KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ CAO NHẤT THEO SNAPSHOT MỚI NHẤT](../figures/brussels_09_top10_price-page-00001.jpg)](../figures/brussels_09_top10_price.pdf)
+
+
+---
+
+
+[![H10. PHÂN PHỐI GIÁ THUÊ DỰA TRÊN TỔNG NGUỒN CUNG THEO SNAPSHOT MỚI NHẤT](../figures/brussels_10_price_distribution-page-00001.jpg)](../figures/brussels_10_price_distribution.pdf)
+
+
+---
+
+
+[![H11. BIẾN ĐỘNG GIÁ THUÊ TRUNG VỊ TẠI CÁC KHU VỰC THEO THỜI GIAN](../figures/brussels_11_price_heatmap_optimized-page-00001.jpg)](../figures/berlin_11_price_segments.pdf)
+
+
+---
+
+
+[![H12. XU HƯỚNG SỐ LƯỢNG REVIEW THEO SNAPSHOT MỚI NHẤT](../figures/brussels_12_reviews_trend-page-00001.jpg)](../figures/brussels_12_reviews_trend.pdf)
+
+
+---
 
 
 ### E.2 Thành phố Berlin
 
-1. [H1. XU HƯỚNG TỔNG NGUỒN CUNG THEO THỜI GIAN](../figures/berlin_01_supply.pdf)
+[![H1. XU HƯỚNG TỔNG NGUỒN CUNG THEO THỜI GIAN](../figures/berlin_01_supply_page-0001.jpg)](../figures/berlin_01_supply.pdf)
 
-2. [H2. XU HƯỚNG GIÁ THUÊ TRUNG VỊ THEO THỜI GIAN](../figures/berlin_02_price.pdf)
+---
 
-3. [H3. TỶ LỆ CHỦ NHÀ CHUYÊN NGHIỆP THEO THỜI GIAN](../figures/berlin_03_multi_host.pdf)
+[![H2. XU HƯỚNG GIÁ THUÊ TRUNG VỊ THEO THỜI GIAN](../figures/berlin_02_price_page-0001.jpg)](../figures/berlin_02_price.pdf)
 
-4. [H4. XU HƯỚNG ĐỘ SẴN SÀNG TRUNG VỊ THEO THỜI GIAN](../figures/berlin_04_availability.pdf)
+---
 
-5. [H5. XU HƯỚNG TỶ LỆ LẤP ĐẦY THEO SNAPSHOT MỚI NHẤT](../figures/berlin_05_occupancy.pdf)
 
-6. [H6. CƠ CẤU LOẠI PHÒNG THEO THỜI GIAN](../figures/berlin_06_room_type.pdf)
+[![H3. TỶ LỆ CHỦ NHÀ CHUYÊN NGHIỆP THEO THỜI GIAN](../figures/berlin_03_multi_host_page-0001.jpg)](../figures/berlin_03_multi_host.pdf)
 
-7. [H7. TOP 10 KHU VỰC CÓ TỔNG NGUỒN CUNG CAO NHẤT THE0 SNAPSHOT MỚI NHẤT](../figures/berlin_07_top10_supply.pdf)
 
-8. [H8. TOP 10 KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ CAO NHẤT THEO SNAPSHOT MỚI NHẤT](../figures/berlin_08_top10_price.pdf)
+---
 
-9. [H9. PHÂN PHỐI GIÁ THUÊ DỰA TRÊN TỔNG NGUỒN CUNG THEO SNAPSHOT MỚI NHẤT](../figures/berlin_09_price_distribution.pdf)
 
-10. [H10. TOP 10 LOẠI HÌNH BẤT ĐỘNG SẢN PHỔ BIẾN NHẤT THEO SNAPSHOT MỚI NHẤT](../figures/berlin_10_property_type.pdf)
+[![H4. XU HƯỚNG ĐỘ SẴN SÀNG TRUNG VỊ THEO THỜI GIAN](../figures/berlin_04_availability_page-0001.jpg)](../figures/berlin_04_availability.pdf)
 
-11. [H11. PHÂN KHÚC THỊ TRƯỜNG GIÁ THUÊ THEO SNAPSHOT MỚI NHẤT](../figures/berlin_11_price_segments.pdf)
 
-12. [H12. XU HƯỚNG SỐ LƯỢNG REVIEW THEO SNAPSHOT MỚI NHẤT](../figures/berlin_12_reviews_trend.pdf)
+---
 
-<div style="page-break-after: always;"></div>
+
+[![H5. XU HƯỚNG TỶ LỆ LẤP ĐẦY THEO SNAPSHOT MỚI NHẤT](../figures/berlin_05_occupancy_page-0001.jpg)](../figures/berlin_05_occupancy.pdf)
+
+
+---
+
+
+[![H6. CƠ CẤU LOẠI PHÒNG THEO THỜI GIAN](../figures/berlin_06_room_type_page-0001.jpg)](../figures/berlin_06_room_type.pdf)
+
+
+---
+
+
+[![H7. TOP 10 KHU VỰC CÓ TỔNG NGUỒN CUNG CAO NHẤT THE0 SNAPSHOT MỚI NHẤT](../figures/berlin_07_top10_supply_page-0001.jpg)](../figures/berlin_07_top10_supply.pdf)
+
+
+---
+
+
+[![H8. TOP 10 KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ CAO NHẤT THEO SNAPSHOT MỚI NHẤT](../figures/berlin_08_top10_price_page-0001.jpg)](../figures/berlin_08_top10_price.pdf)
+
+
+---
+
+
+[![H9. PHÂN PHỐI GIÁ THUÊ DỰA TRÊN TỔNG NGUỒN CUNG THEO SNAPSHOT MỚI NHẤT](../figures/berlin_09_price_distribution_page-0001.jpg)](../figures/berlin_09_price_distribution.pdf)
+
+---
+
+
+[![H10. TOP 10 LOẠI HÌNH BẤT ĐỘNG SẢN PHỔ BIẾN NHẤT THEO SNAPSHOT MỚI NHẤT](../figures/berlin_10_property_type_page-0001.jpg)](../figures/berlin_10_property_type.pdf)
+
+
+---
+
+
+[![H11. PHÂN KHÚC THỊ TRƯỜNG GIÁ THUÊ THEO SNAPSHOT MỚI NHẤT](../figures/berlin_11_price_segments_page-0001.jpg)](../figures/berlin_11_price_segments.pdf)
+
+
+---
+
+
+
+[![H12. XU HƯỚNG SỐ LƯỢNG REVIEW THEO SNAPSHOT MỚI NHẤT](../figures/berlin_12_reviews_trend_page-0001.jpg)](../figures/berlin_12_reviews_trend.pdf)
+
+---
 
 
 ### E.3 Thành phố Paris
 
-1. [H1. XU HƯỚNG TỔNG NGUỒN CUNG THEO THỜI GIAN](../figures/paris_01_supply.pdf)
+[![H1. XU HƯỚNG TỔNG NGUỒN CUNG THEO THỜI GIAN](../figures/paris_01_supply_page-0001.jpg)](../figures/paris_01_supply.pdf)
 
-2. [H2. XU HƯỚNG GIÁ THUÊ TRUNG VỊ THEO THỜI GIAN](../figures/paris_02_price.pdf)
+---
 
-3. [H3. TỶ LỆ CHỦ NHÀ CHUYÊN NGHIỆP THEO THỜI GIAN](../figures/paris_03_multi_host.pdf)
 
-4. [H4. XU HƯỚNG ĐỘ SẴN SÀNG TRUNG VỊ THEO THỜI GIAN](../figures/paris_04_availability.pdf)
+[![H2. XU HƯỚNG GIÁ THUÊ TRUNG VỊ THEO THỜI GIAN](../figures/paris_02_price_page-0001.jpg)](../figures/paris_02_price.pdf)
 
-5. [H5. XU HƯỚNG TỶ LỆ LẤP ĐẦY THEO SNAPSHOT MỚI NHẤT](../figures/paris_05_occupancy.pdf)
+---
 
-6. [H6. CƠ CẤU LOẠI PHÒNG THEO THỜI GIAN](../figures/paris_06_room_type.pdf)
 
-7. [H7. BẢN ĐỒ PHÂN BỐ GIÁ THUÊ TRUNG VỊ THEO SNAPSHOT MỚI NHẤT](../figures/paris_07_map_labeled.pdf)
 
-8. [H8. TOP 10 KHU VỰC CÓ TỔNG NGUỒN CUNG CAO NHẤT THEO SNAPSHOT MỚI NHẤT](../figures/paris_08_top10_supply.pdf)
+[![H3. TỶ LỆ CHỦ NHÀ CHUYÊN NGHIỆP THEO THỜI GIAN](../figures/paris_03_multi_host_page-0001.jpg)](../figures/paris_03_multi_host.pdf)
 
-9. [H9. TOP 10 KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ CAO NHẤT THEO SNAPSHOT MỚI NHẤT](../figures/paris_09_top10_price.pdf)
+---
 
-10. [H10. PHÂN PHỐI GIÁ THUÊ DỰA TRÊN TỔNG NGUỒN CUNG THEO SNAPSHOT MỚI NHẤT](../figures/paris_10_price_distribution.pdf)
 
-11. [H11. BIẾN ĐỘNG GIÁ THUÊ TRUNG VỊ TẠI CÁC KHU VỰC THEO THỜI GIAN](../figures/paris_11_price_heatmap.pdf)
 
-12. [H12. XU HƯỚNG SỐ LƯỢNG REVIEW THEO SNAPSHOT MỚI NHẤT](../figures/paris_12_reviews_trend.pdf)
+[![H4. XU HƯỚNG ĐỘ SẴN SÀNG TRUNG VỊ THEO THỜI GIAN](../figures/paris_04_availability_page-0001.jpg)](../figures/paris_04_availability.pdf)
 
+---
+
+
+
+[![H5. XU HƯỚNG TỶ LỆ LẤP ĐẦY THEO SNAPSHOT MỚI NHẤT](../figures/paris_05_occupancy_page-0001.jpg)](../figures/paris_05_occupancy.pdf)
+
+---
+
+
+
+[![H6. CƠ CẤU LOẠI PHÒNG THEO THỜI GIAN](../figures/paris_06_room_type_page-0001.jpg)](../figures/paris_06_room_type.pdf)
+
+---
+
+
+
+[![H7. BẢN ĐỒ PHÂN BỐ GIÁ THUÊ TRUNG VỊ THEO SNAPSHOT MỚI NHẤT](../figures/paris_07_map_labeled_page-0001.jpg)](../figures/paris_07_map_labeled.pdf)
+
+---
+
+
+
+[![H8. TOP 10 KHU VỰC CÓ TỔNG NGUỒN CUNG CAO NHẤT THEO SNAPSHOT MỚI NHẤT](../figures/paris_08_top10_supply_page-0001.jpg)](../figures/paris_08_top10_supply.pdf)
+
+---
+
+
+
+
+[![H9. TOP 10 KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ CAO NHẤT THEO SNAPSHOT MỚI NHẤT](../figures/paris_09_top10_price_page-0001.jpg)](../figures/paris_09_top10_price.pdf)
+
+
+---
+
+
+
+
+[![H10. PHÂN PHỐI GIÁ THUÊ DỰA TRÊN TỔNG NGUỒN CUNG THEO SNAPSHOT MỚI NHẤT](../figures/paris_10_price_distribution_page-0001.jpg)](../figures/paris_10_price_distribution.pdf)
+
+
+---
+
+
+
+[![H11. BIẾN ĐỘNG GIÁ THUÊ TRUNG VỊ TẠI CÁC KHU VỰC THEO THỜI GIAN](../figures/paris_11_price_heatmap_page-0001.jpg)](../figures/paris_11_price_heatmap.pdf)
+
+---
+
+
+[![H12. XU HƯỚNG SỐ LƯỢNG REVIEW THEO SNAPSHOT MỚI NHẤT](../figures/paris_12_reviews_trend_page-0001.jpg)](../figures/paris_12_reviews_trend.pdf)
+
+
+---
+
+<div style="page-break-after: always;"></div>
+
+
+<div style="text-align: center; margin-top: 60%;">
+  <h2>F. SO SÁNH</h2>
+</div>
+
+<div style="page-break-after: always;"></div>
+
+[![H1. BIẾN ĐỘNG TỔNG NGUỒN CUNG THEO THỜI GIAN](../figures/H01_Total_Supply_All_Snapshots_page-0001.jpg)](../figures/H01_Total_Supply_All_Snapshots.pdf)
+
+---
+
+[![H2. SO SÁNH GIÁ THUÊ TRUNG VỊ THE THỜI GIAN](../figures/H02_Median_Price_Horizontal_page-0001.jpg)](../figures/H02_Median_Price_Horizontal.pdf)
+
+
+---
+
+[![H3. SO SÁNH XU HƯỚNG ĐỘ SẴN SÀNG THEO THỜI GIAN](../figures/H03_Availability_Trend_page-0001.jpg)](../figures/H03_Availability_Trend.pdf)
+
+---
+
+[![H4. SO SÁNH TỶ LỆ CHUYÊN NGHIỆP HÓA VS CÁ NHÂN THEO SNAPSHOT MỚI NHẤT](../figures/H04_MultiHost_Stacked_page-0001.jpg)](../figures/H04_MultiHost_Stacked.pdf)
+
+---
+
+[![H5. SO SÁNH XU HƯỚNG TỶ LỆ LẤP ĐẦY THEO SNAPSHOT MỚI NHẤT](../figures/H05_Occupancy_Rate_LineChart_page-0001.jpg)](../figures/H05_Occupancy_Rate_LineChart.pdf)
+
+---
+
+[![H6. SO SÁNH CƠ CẤU LOẠI PHÒNG THEO SNAPSHOT MỚI NHẤT](../figures/H06_Room_Type_GroupedBar_page-0001.jpg)](../figures/H06_Room_Type_GroupedBar.pdf)
+
+---
+
+[![H7. SO SÁNH GIÁ THUÊ TRUNG VỊ VỚI TỪNG LOẠI PHÒNG THEO SNAPSHOT MỚI NHẤT](../figures/H07_Price_RoomType_page-0001.jpg)](../figures/H07_Price_RoomType.pdf)
+
+---
+
+[![H8. SO SÁNH CƠ CẤU PHÂN KHÚC GIÁ](../figures/H08_Price_Segments_page-0001.jpg)](../figures/H08_Price_Segments.pdf)
+
+---
+
+[![H9. SO SÁNH CHẤT LƯỢNG ĐIỂM ĐÁNH GIÁ THEO SNAPSHOT MỚI NHẤT](../figures/H09_Quality_Scores_page-0001.jpg)](../figures/H09_Quality_Scores.pdf)
+
+
+---
+
+[![H10. SO SÁNH TƯƠNG QUAN GIỮA GIÁ THUÊ VÀ ĐÁNH GIÁ THEO SNAPSHOT MỚI NHẤT](../figures/H10_Price_Quality_Boxplot_page-0001.jpg)](../figures/H10_Price_Quality_Boxplot.pdf)
+
+---
+
+[![H11. TOP 5 KHU VỰC / THÀNH PHỐ CÓ GIÁ THUÊ TRUNG VỊ CAO NHẤT](../figures/H11_Top15_Neighborhoods_page-0001.jpg)](../figures/H11_Top15_Neighborhoods.pdf)
+
+---
+
+[![H12. SO SÁNH XU HƯỚNG SỐ LƯỢNG REVIEW THEO SNAPSHOT MỚI NHẤT](../figures/H12_Reviews_Trend_page-0001.jpg)](../figures/H12_Reviews_Trend.pdf)
+
+---
+
+[![H13. SO SÁNH TỔNG HỢP CÁC THÀNH PHỐ](../figures/H13_Radar_Summary_page-0001.jpg)](../figures/H13_Radar_Summary.pdf)
+
+<div style="page-break-after: always;"></div>
+
+<div style="text-align: center; margin-top: 60%;">
+  <h2>G. NÂNG CAO</h2>
+</div>
 
 
 <div style="page-break-after: always;"></div>
 
-## F. SO SÁNH 
 
-1. [H1. BIẾN ĐỘNG TỔNG NGUỒN CUNG THEO THỜI GIAN](../figures/H01_Total_Supply_All_Snapshots.pdf)
-
-2. [H2. SO SÁNH GIÁ THUÊ TRUNG VỊ THE THỜI GIAN](../figures/H02_Median_Price_Horizontal.pdf)
-
-3. [H3. SO SÁNH XU HƯỚNG ĐỘ SẴN SÀNG THEO THỜI GIAN](../figures/H03_Availability_Trend.pdf)
-
-4. [H4. SO SÁNH TỶ LỆ CHUYÊN NGHIỆP HÓA VS CÁ NHÂN THEO SNAPSHOT MỚI NHẤT](../figures/H04_MultiHost_Stacked.pdf)
-
-5. [H5. SO SÁNH XU HƯỚNG TỶ LỆ LẤP ĐẦY THEO SNAPSHOT MỚI NHẤT](../figures/H05_Occupancy_Rate_LineChart.pdf)
-
-6. [H6. SO SÁNH CƠ CẤU LOẠI PHÒNG THEO SNAPSHOT MỚI NHẤT](../figures/H06_Room_Type_GroupedBar.pdf)
-
-7. [H7. SO SÁNH GIÁ THUÊ TRUNG VỊ VỚI TỪNG LOẠI PHÒNG THEO SNAPSHOT MỚI NHẤT](../figures/H07_Price_RoomType.pdf)
-
-8. [H8. SO SÁNH CƠ CẤU PHÂN KHÚC GIÁ](../figures/H08_Price_Segments.pdf)
-
-9. [H9. SO SÁNH CHẤT LƯỢNG ĐIỂM ĐÁNH GIÁ THEO SNAPSHOT MỚI NHẤT](../figures/H09_Quality_Scores.pdf)
-
-10. [H10. SO SÁNH TƯƠNG QUAN GIỮA GIÁ THUÊ VÀ ĐÁNH GIÁ THEO SNAPSHOT MỚI NHẤT](../figures/H10_Price_Quality_Boxplot.pdf)
-
-11. [H11. TOP 5 KHU VỰC / THÀNH PHỐ CÓ GIÁ THUÊ TRUNG VỊ CAO NHẤT](../figures/H11_Top15_Neighborhoods.pdf)
-
-12. [H12. SO SÁNH XU HƯỚNG SỐ LƯỢNG REVIEW THEO SNAPSHOT MỚI NHẤT](../figures/H12_Reviews_Trend.pdf)
-
-13. [H13. SO SÁNH TỔNG HỢP CÁC THÀNH PHỐ](../figures/H13_Radar_Summary.pdf)
+<div style="text-align: center; margin-top: 60%;">
+  <h2>H. DIỄN GIẢI VÀ KẾT LUẬN</h2>
+</div>
 
 <div style="page-break-after: always;"></div>
-
-## G. NÂNG CAO
-
-<div style="page-break-after: always;"></div>
-
-
-## H. DIỄN GIẢI & KẾT LUẬN
 
 ### H.1 Các phát hiện chính dựa trên kết quả phân tích dữ liệu từ 3 thành phố
 
@@ -595,7 +780,7 @@ $$
 
 ⇒ Kết luận: Dữ liệu lấp đầy củng cố nhận định rằng **Paris**  thể hiện hiệu suất cao nhất và ổn định nhất, trong khi **Brussels** duy trì mức trung bình nhưng tương đối ổn định. **Berlin** cho thấy mức độ biến động lớn hơn, cho thấy thị trường này nhạy cảm hơn trước các yếu tố bên ngoài như chính sách quản lý, tính mùa vụ hoặc các điều chỉnh của thị trường.
 
-
+<div style="page-break-after: always;"></div>
 
 * **Cấu trúc loại phòng đặc thù và phân khúc khách hàng mục tiêu:**
 1. Tại **Paris**, loại hình ''Entire home/apt'' (Căn hộ nguyên căn) chiếm ưu thế tuyệt đối (~90%), trong khi ''Private room'' (Phòng riêng) chỉ chiếm chưa đầy 9%. Ngược lại, **Berlin** và **Brussels** có cơ cấu tương đồng nhau, duy trì khoảng 73% - 74% thị phần cho ''Entire home/apt'' và 24% - 25% thị phần cho ''Private room''. Đặc biệt, điểm chung của 3 thành phố này là đều dành rất ít thị phần cho 2 loại hình còn lại là ''Shared room'' (Phòng chung) và ''Hotel room'' (Phòng khách sạn).  ([H6](../figures/H06_Room_Type_GroupedBar.pdf))
@@ -616,7 +801,7 @@ $$
 
 
 
-
+---
 
 
 
@@ -624,7 +809,7 @@ $$
 
 * **Ngăn chặn sai lệch thống kê quan trọng:**
 1. Quy tắc `QA001_price_zero` đã phát hiện sự cố bất thường trong snapshot ngày 12/09/2025 tại **Paris**, với 81.853 bản ghi bị lỗi giá (price = 0 hoặc null).
-2. Tác động: Việc kiên quyết loại bỏ các bản ghi này dẫn đến việc snapshot **Paris** tháng 9/2025 không còn dữ liệu để phân tích (Total Listing = 0). Thay vào đó, ta coi snapshot mới nhất của thành phố **Paris** là snapshot gần nhất trước snapshot lỗi (6/6/2025). Việc loại bỏ snapshot lỗi là quyết định đánh đổi cần thiết, nếu giữ lại các chỉ số cơ bản sẽ bị kéo xuống thấp một cách sai lệch dẫn đến các kết luận sai về thị trường.
+2. Tác động: Việc kiên quyết loại bỏ các bản ghi này dẫn đến việc snapshot **Paris** tháng 9/2025 không còn dữ liệu để phân tích (Total Listing = 0). Thay vào đó, ta coi snapshot mới nhất của thành phố **Paris** là snapshot gần nhất trước snapshot lỗi (6/6/2025). Việc loại bỏ snapshot lỗi là quyết định đánh đổi cần thiết, nếu giữ lại các chỉ số cơ bản sẽ bị kéo xuống thấp một cách sai lệch.
 
 * **Tăng độ chính xác về không gian địa lí:**
 1. Quy tắc `QA002_coords_out_of_bounds` đã lọc bỏ các listings nằm ngoài ranh giới hành chính thực tế của thành phố.
@@ -635,7 +820,7 @@ $$
 2. Tác động: Giúp giảm kích thước bộ dữ liệu, tăng tốc độ tính toán KPI mà không ảnh hưởng đến bức tranh tổng thể.
 
 
-
+---
 
 
 ### H.3 Hạn chế 
@@ -647,7 +832,7 @@ $$
 * **Dữ liệu đánh giá có độ trễ:** Số lượng review chỉ phản ánh những khách hàng đã hoàn thành chuyến đi và viết đánh giá, do đó chỉ số này luôn có độ trễ so với nhu cầu đặt phòng thực tế.
 
 
-
+---
 
 
 ### H.4 Đề xuất cải tiến
@@ -667,7 +852,11 @@ $$
 
 
 
-## I. TÀI LIỆU THAM KHẢO & CÔNG CỤ SỬ DỤNG
+<div style="text-align: center; margin-top: 60%;">
+  <h2>I. TÀI LIỆU THAM KHẢO & CÔNG CỤ SỬ DỤNG</h2>
+</div>
+
+<div style="page-break-after: always;"></div>
 
 * **Nguồn dữ liệu và tài liệu tham khảo, khám phá:** Nguồn dữ liệu chính được sử dụng trong dự án lấy từ **Inside Airbnb**, bao gồm các tập dữ liệu Listings, Calendar, Reviews, Neighbourhoods của **Brussels**, **Berlin** và **Paris**.
 1. Trang tải dữ liệu chính thức: https://insideairbnb.com/get-the-data/
