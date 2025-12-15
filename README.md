@@ -16,7 +16,7 @@ Mục tiêu: Phân tích xu hướng nguồn cung, giá cả, và hiệu suất 
 ---
 
 ## 1. Giới thiệu
-* Dự án sử dụng dữ liệu từ Inside Airbnb - một trang web cung cấp các snapshot dữ liệu Airnb theo thành phố và theo thời điểm thu thập (collection date). Các tệp thường ở định dạng CSV (đôi khi kèm gz), bao gồm listings (thông tin chỗ ở và giá), calendar (tính sẵn sàng và giá theo ngày), reviews (đánh giá) và neighbourhoods (ranh giới khu vực GeoJSON/CSV) tùy thành phố.
+* Dự án sử dụng dữ liệu từ **Inside Airbnb**, một trang web cung cấp các snapshot dữ liệu Airbnb theo thành phố và theo thời điểm thu thập (collection date). Các tệp thường ở định dạng CSV (đôi khi kèm gz), bao gồm listings (thông tin chỗ ở và giá), calendar (tính sẵn sàng và giá theo ngày), reviews (đánh giá) và neighbourhoods (ranh giới khu vực GeoJSON/CSV) tùy thành phố.
 
 * Trang tải dữ liệu chính thức: https://insideairbnb.com/get-the-data/
 
@@ -24,10 +24,12 @@ Mục tiêu: Phân tích xu hướng nguồn cung, giá cả, và hiệu suất 
 
 
 * Dữ liệu sau khi được xử lý của các thành phố sẽ được dùng để trả lời cho các câu hỏi:
-1. Xu hướng nguồn cung và giá phòng biến động thế nào theo thời gian?
+1. Nguồn cung và giá cho thuê biến động như thế nào theo thời gian?
 2. Khu vực nào đắt đỏ nhất và khu vực nào tập trung nhiều phòng nhất?
-3. Tỷ lệ lấp đầy (Occupancy) và hiệu suất doanh thu ra sao?
-4. Mức độ chuyên nghiệp hóa của chủ nhà (Multi-hosts).
+3. Tỷ lệ lấp đầy và hiệu suất doanh thu ra sao?
+4. Mức độ chuyên nghiệp hóa của chủ nhà.
+5. Đánh giá của khách hàng.
+6. Thông tin về vị trí và khu vực.
 
 * Dữ liệu bao gồm các snapshot:
 1. **Brussels, Belgium:** 22/12/2024, 16/03/2025, 21/06/2025.
@@ -92,6 +94,12 @@ seaborn
 3. Output: Các file CSV sạch trong /processed/<city_name>/ và /reports/ (<city_name> - tên thành phố).
 ```text
 Các file CSV trong /processed/<city_name>/
+# Dữ liệu về các khu vực của thành phố
+/processed/<city_name>/kpi_neighbourhood_<city_name>.csv/
+
+# Dữ liệu về xu hướng đánh giá của thành phố
+/processed/<city_name>/kpi_review_trends_<city_name>.csv/
+
 # Dữ liệu về phân bố loại phòng của thành phố
 /processed/<city_name>/kpi_room_type_<city_name>.csv/
 
@@ -109,7 +117,7 @@ Các file CSV trong /reports/
 (<city_name> - tên thành phố)
 ```
 
-* Bước 3: Trực quan hóa
+* Bước 3: Trực quan hóa và so sánh
 1. Chạy notebook của từng thành phố theo thứ tự Brussels -> Berlin -> Paris để vẽ biểu đồ cho từng thành phố và biểu đổ so sánh tổng hợp.
 ```text
 # Vẽ biểu đồ cho từng thành phố
@@ -120,6 +128,17 @@ Các file CSV trong /reports/
 ```
 2. Input: Các file KPI CSV trong /processed/.
 3. Output: Các biểu đồ được lưu dưới dạng file PDF trong /figures/.
+
+
+* Bước 4: Chạy lại toàn bộ dự án (Không bắt buộc)
+1. Nếu bạn đã chạy các notebook trên thì không bắt buộc phải chạy lại dự án.
+2. Chạy notebook chính để chạy lại pipeline dự án.
+```text
+
+# Notebook chính để chạy lại toàn bộ dự án
+/src/MAIN.ipynb/
+```
+
 
 ---
 
@@ -137,39 +156,48 @@ Các file CSV trong /reports/
 ```text
 brussels_01_supply.pdf
 brussels_02_price.pdf
-brussels_03_occupancy.pdf
-brussels_04_room_type.pdf
-brussels_05_map_labeled.pdf
-brussels_06_top10_supply.pdf
-brussels_07_top10_price.pdf
-brussels_08_price_distribution.pdf
-brussels_09_price_heatmap.pdf
+brussels_03_multi_host.pdf
+brussels_04_availability.pdf
+brussels_05_occupancy.pdf
+brussels_06_room_type.pdf
+brussels_07_map_labeled.pdf
+brussels_08_top10_supply.pdf
+brussels_09_top10_price.pdf
+brussels_10_price_distribution.pdf
+brussels_11_price_heatmap_optimized.pdf
+brussels_12_reviews_trend.pdf
 ```
 
 2. Biểu đồ của thành phố Berlin:
 ```text
 berlin_01_supply.pdf
 berlin_02_price.pdf
-berlin_03_occupancy.pdf
-berlin_04_room_type.pdf
-berlin_05_top10_supply.pdf
-berlin_06_top10_price.pdf
-berlin_07_price_distribution.pdf
-berlin_08_property_type.pdf
-berlin_09_price_segments.pdf
+berlin_03_multi_host.pdf
+berlin_04_availability.pdf
+berlin_05_occupancy.pdf
+berlin_06_room_type.pdf
+berlin_07_top10_supply.pdf
+berlin_08_top10_price.pdf
+berlin_09_price_distribution.pdf
+berlin_10_property_type.pdf
+berlin_11_price_segments.pdf
+berlin_12_reviews_trend.pdf
 ```
 
 3. Biểu đồ của thành phố Paris:
 ```text
 paris_01_supply.pdf
 paris_02_price.pdf
-paris_03_occupancy.pdf
-paris_04_room_type.pdf
-paris_05_map_labeled.pdf
-paris_06_top10_supply.pdf
-paris_07_top10_price.pdf
-paris_08_price_distribution.pdf
-paris_09_price_heatmap.pdf
+paris_03_multi_host.pdf
+paris_04_availability.pdf
+paris_05_occupancy.pdf
+paris_06_room_type.pdf
+paris_07_map_labeled.pdf
+paris_08_top10_supply.pdf
+paris_09_top10_price.pdf
+paris_10_price_distribution.pdf
+paris_11_price_heatmap.pdf
+paris_12_reviews_trend.pdf
 ```
 
 4. Biểu đồ so sánh tổng hợp 3 thành phố Brussels, Berlin, Paris:
@@ -185,7 +213,8 @@ H08_Price_Segments.pdf
 H09_Quality_Scores.pdf
 H10_Price_Quality_Boxplot.pdf
 H11_Top15_Neighborhoods.pdf
-H12_Radar_Summary.pdf
+H12_Reviews_Trend.pdf
+H13_Radar_Summary.pdf
 ```
 
 ---
@@ -194,12 +223,6 @@ H12_Radar_Summary.pdf
 * Lê Việt Phú - 24022426
 * Hoàng Huy Hoàng - 24022336
 * Trần Trung Hiếu - 24022330
-
-
-
-   
-
-
 
 
 
