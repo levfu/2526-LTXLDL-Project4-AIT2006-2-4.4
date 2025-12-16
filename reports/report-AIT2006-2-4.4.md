@@ -682,57 +682,67 @@ $$
 
 <div style="page-break-after: always;"></div>
 
-[![H1. BIẾN ĐỘNG TỔNG NGUỒN CUNG THEO THỜI GIAN](../figures/H01_Total_Supply_All_Snapshots_page-0001.jpg)](../figures/H01_Total_Supply_All_Snapshots.pdf)
+[![H1. BIẾN ĐỘNG TỔNG NGUỒN CUNG THEO THỜI GIAN](../figures/H01_Total_Supply_All_Snapshots-page-00001.jpg)](../figures/H01_Total_Supply_All_Snapshots.pdf)
 
 ---
 
-[![H2. SO SÁNH GIÁ THUÊ TRUNG VỊ THE THỜI GIAN](../figures/H02_Median_Price_Horizontal_page-0001.jpg)](../figures/H02_Median_Price_Horizontal.pdf)
-
-
----
-
-[![H3. SO SÁNH XU HƯỚNG ĐỘ SẴN SÀNG THEO THỜI GIAN](../figures/H03_Availability_Trend_page-0001.jpg)](../figures/H03_Availability_Trend.pdf)
-
----
-
-[![H4. SO SÁNH TỶ LỆ CHUYÊN NGHIỆP HÓA VS CÁ NHÂN THEO SNAPSHOT MỚI NHẤT](../figures/H04_MultiHost_Stacked_page-0001.jpg)](../figures/H04_MultiHost_Stacked.pdf)
-
----
-
-[![H5. SO SÁNH XU HƯỚNG TỶ LỆ LẤP ĐẦY THEO SNAPSHOT MỚI NHẤT](../figures/H05_Occupancy_Rate_LineChart_page-0001.jpg)](../figures/H05_Occupancy_Rate_LineChart.pdf)
-
----
-
-[![H6. SO SÁNH CƠ CẤU LOẠI PHÒNG THEO SNAPSHOT MỚI NHẤT](../figures/H06_Room_Type_GroupedBar_page-0001.jpg)](../figures/H06_Room_Type_GroupedBar.pdf)
-
----
-
-[![H7. SO SÁNH GIÁ THUÊ TRUNG VỊ VỚI TỪNG LOẠI PHÒNG THEO SNAPSHOT MỚI NHẤT](../figures/H07_Price_RoomType_page-0001.jpg)](../figures/H07_Price_RoomType.pdf)
-
----
-
-[![H8. SO SÁNH CƠ CẤU PHÂN KHÚC GIÁ](../figures/H08_Price_Segments_page-0001.jpg)](../figures/H08_Price_Segments.pdf)
-
----
-
-[![H9. SO SÁNH CHẤT LƯỢNG ĐIỂM ĐÁNH GIÁ THEO SNAPSHOT MỚI NHẤT](../figures/H09_Quality_Scores_page-0001.jpg)](../figures/H09_Quality_Scores.pdf)
+[![H2. SO SÁNH GIÁ THUÊ TRUNG VỊ THE THỜI GIAN](../figures/H02_Median_Price_Horizontal-page-00001.jpg)](../figures/H02_Median_Price_Horizontal.pdf)
 
 
 ---
 
-[![H10. SO SÁNH TƯƠNG QUAN GIỮA GIÁ THUÊ VÀ ĐÁNH GIÁ THEO SNAPSHOT MỚI NHẤT](../figures/H10_Price_Quality_Boxplot_page-0001.jpg)](../figures/H10_Price_Quality_Boxplot.pdf)
+[![H3. PHÁT HIỆN KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ BẤT THƯỜNG THEO SNAPSHOT MỚI NHẤT](../figures/H03_Price_Anomaly_ZSCORE-page-00001.jpg)](../figures/H03_Availability_Trend.pdf)
 
 ---
 
-[![H11. TOP 5 KHU VỰC / THÀNH PHỐ CÓ GIÁ THUÊ TRUNG VỊ CAO NHẤT](../figures/H11_Top15_Neighborhoods_page-0001.jpg)](../figures/H11_Top15_Neighborhoods.pdf)
+[![H4. SO SÁNH XU HƯỚNG ĐỘ SẴN SÀNG THEO THỜI GIAN](../figures/H04_Availability_Trend-page-00001.jpg)](../figures/H04_Availability_Trend.pdf)
 
 ---
 
-[![H12. SO SÁNH XU HƯỚNG SỐ LƯỢNG REVIEW THEO SNAPSHOT MỚI NHẤT](../figures/H12_Reviews_Trend_page-0001.jpg)](../figures/H12_Reviews_Trend.pdf)
+[![H5. SO SÁNH TỶ LỆ MULTI-HOST VÀ SINGLE-HOST THEO SNAPSHOT MỚI NHẤT](../figures/H05_MultiHost_Stacked-page-00001.jpg)](../figures/H05_MultiHost_Stacked.pdf)
 
 ---
 
-[![H13. SO SÁNH TỔNG HỢP CÁC THÀNH PHỐ](../figures/H13_Radar_Summary_page-0001.jpg)](../figures/H13_Radar_Summary.pdf)
+[![H6. SO SÁNH XU HƯỚNG TỶ LỆ LẤP ĐẦY THEO SNAPSHOT MỚI NHẤT](../figures/H06_Occupancy_Rate_LineChart-page-00001.jpg)](../figures/H06_Occupancy_Rate_LineChart.pdf)
+
+---
+
+[![H7. SO SÁNH CƠ CẤU LOẠI PHÒNG THEO SNAPSHOT MỚI NHẤT](../figures/H07_Room_Type_GroupedBar-page-00001.jpg)](../figures/H07_Room_Type_GroupedBar.pdf)
+
+---
+
+[![H8. SO SÁNH GIÁ THUÊ TRUNG VỊ TỪNG LOẠI PHÒNG THEO SNAPSHOT MỚI NHẤT](../figures/H08_Price_RoomType-page-00001.jpg)](../figures/H08_Price_RoomType.pdf)
+
+---
+
+[![H9. SO SÁNH CƠ CẤU PHÂN KHÚC GIÁ THEO SNAPSHOT MỚI NHẤT](../figures/H09_Price_Segments-page-00001.jpg)](../figures/H09_Price_Segments.pdf)
+
+
+---
+
+[![H10. PHÂN CỤM THỊ TRƯỜNG THEO GIÁ THUÊ TRUNG VỊ, CHẤT LƯỢNG THEO SNAPSHOT MỚI NHẤT](../figures/H10_KMeans_Price_Quality-page-00001.jpg)](../figures/H10_KMeans_Price_Quality.pdf)
+
+---
+
+[![H11. SO SÁNH CHẤT LƯỢNG ĐIỂM ĐÁNH GIÁ THEO SNAPSHOT MỚI NHẤT](../figures/H11_Quality_Scores-page-00001.jpg)](../figures/H11_Quality_Scores.pdf)
+
+---
+
+[![H12. TƯƠNG QUAN GIỮA GIÁ THUÊ VÀ ĐÁNH GIÁ THEO SNAPSHOT MỚI NHẤT](../figures/H12_Price_Quality_Boxplot-page-00001.jpg)](../figures/H12_Price_Quality_Boxplot.pdf)
+
+---
+
+[![H13. TOP 5 KHU VỰC / THÀNH PHỐ CÓ GIÁ THUÊ TRUNG VỊ CAO NHẤT](../figures/H13_Top15_Neighborhoods-page-00001.jpg)](../figures/H13_Top15_Neighborhoods.pdf)
+
+---
+
+[![H14. SO SÁNH XU HƯỚNG SỐ LƯỢNG REVIEW THEO SNAPSHOT MỚI NHẤT](../figures/H14_Reviews_Trend-page-00001.jpg)](../figures/H14_Reviews_Trend.pdf)
+
+
+---
+
+[![H15. SO SÁNH TỔNG HỢP 3 THÀNH PHỐ](../figures/H15_Radar_Summary-page-00001.jpg)](../figures/H15_Radar_Summary.pdf)
+
 
 <div style="page-break-after: always;"></div>
 
@@ -742,6 +752,75 @@ $$
 
 
 <div style="page-break-after: always;"></div>
+
+
+### G.1 Biểu đồ nâng cao
+
+[![H3. PHÁT HIỆN KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ BẤT THƯỜNG THEO SNAPSHOT MỚI NHẤT](../figures/H03_Price_Anomaly_ZSCORE-page-00001.jpg)](../figures/H03_Availability_Trend.pdf)
+
+---
+
+[![H10. PHÂN CỤM THỊ TRƯỜNG THEO GIÁ THUÊ TRUNG VỊ, CHẤT LƯỢNG THEO SNAPSHOT MỚI NHẤT](../figures/H10_KMeans_Price_Quality-page-00001.jpg)](../figures/H10_KMeans_Price_Quality.pdf)
+
+
+
+
+### G.2 Mục tiêu
+
+* **H3. PHÁT HIỆN KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ BẤT THƯỜNG THEO SNAPSHOT MỚI NHẤT**
+1. Nhận diện ''Điểm nóng'', xác định các khu vực (neighbourhoods) có mức giá thuê trung vị ''ngoại lai'' (outliers) - tức là đắt hoặc rẻ một cách bất thường so với mặt bằng chung của chính thành phố đó.
+2. So sánh tương đối: Thay vì so sánh giá tuyệt đối (vì **Paris** luôn đắt hơn **Berlin**, **Brussels**), mục tiêu là so sánh độ lệch chuẩn.
+3. Hỗ trợ ra quyết định: Giúp nhà đầu tư nhận diện các khu vực tiềm năng (giá rẻ bất thường) hoặc các khu vực rủi ro cao (giá đắt bất thường).
+
+* **H10: PHÂN CỤM THỊ TRƯỜNG THEO GIÁ THUÊ TRUNG VỊ, CHẤT LƯỢNG THEO SNAPSHOT MỚI NHẤT**
+1. Định vị thị trường: Không nhìn thị trường Airbnb như một khối đồng nhất, mà chia nhỏ thành các phân khúc rõ rệt (Bình dân, Trung cấp, Cao cấp, Hạng sang) dựa trên dữ liệu thực tế.
+2. Tìm kiếm mối tương quan Giá - Chất lượng: Trả lời câu hỏi: "Liệu trả tiền nhiều hơn có thực sự nhận được chất lượng tốt hơn không?" hay "Đâu là những khu vực 'ngon-bổ-rẻ' (giá thấp nhưng review cao)?".
+3. Hỗ trợ chiến lược giá: Giúp chủ nhà (Host) biết khu vực của mình thuộc phân khúc nào để đặt giá phù hợp, tránh việc đặt giá "Hạng sang" cho một khu vực "Bình dân".
+
+
+---
+
+### G.3 Phương pháp 
+
+* **H3: PHÁT HIỆN KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ BẤT THƯỜNG THEO SNAPSHOT MỚI NHẤT**
+1. Gom nhóm & Trung vị (Aggregation): Sử dụng Trung vị (Median) thay vì Trung bình (Mean) để đại diện giá cho mỗi khu vực. Do giá thuê nhà thường bị lệch bởi một vài căn hộ siêu sang, Trung vị (Median) giúp loại bỏ nhiễu, phản ánh mức giá thực tế của đa số căn hộ trong khu vực đó.
+2. Chuẩn hóa theo ngữ cảnh (Contextual Normalization): Z-score được tính riêng cho từng thành phố (\(x\): giá thuê trung vị của khu vực, \(\mu\): giá thuê trung bình của các khu vực trong cùng thành phố, \(\sigma\): độ lệch chuẩn của giá thuê trong thành phố đó) với công thức 
+
+$$
+Z = \frac{x - \mu}{\sigma}
+$$
+
+3. Ngưỡng phát hiện (Thresholding): Áp dụng quy tắc thực nghiệm, ngưỡng \(\pm 2\sigma\) - theo lý thuyết thống kê, khoảng 95% dữ liệu sẽ nằm trong khoảng này. Bất kỳ khu vực nào nằm ngoài ($|Z| \ge 2$) đều được xem là dị biệt đáng kể về mặt thống kê.
+
+
+* **H10: PHÂN CỤM THỊ TRƯỜNG THEO GIÁ THUÊ TRUNG VỊ, CHẤT LƯỢNG THEO SNAPSHOT MỚI NHẤT**
+1. Giảm nhiễu (Noise Reduction): Sử dụng `groupby` theo khu vực (neighbourhoods) thay vì chạy trên từng listings riêng lẻ, lọc bỏ các khu vực nhỏ (`count > 10`) để giúp biểu đồ không bị rối và kết quả phân cụm đại diện chính xác cho ''mặt bằng chung'' của khu vực đó.
+2. Chuẩn hóa dữ liệu (Feature Scaling): Đây là bước quan trọng nhất, vì giá thuê trung vị và Điểm đánh giá có thang đo quá chênh lệch. Nếu không scale, thuật toán K-Means sẽ chỉ gom nhóm theo giá thuê trung vị mà bỏ qua hoàn toàn chất lượng.
+3. Thuật toán K-Means: Phân cụm các khu vực dựa trên vector đặc trưng gồm giá thuê trung vị và điểm đánh giá trung bình. Trong nghiên cứu này, số cụm được cố định ở \(K = 4\) nhằm tạo ra một phân khúc thị trường dễ diễn giải và có ý nghĩa thực tiễn. Cách phân cụm này giúp làm rõ cấu trúc thị trường thuê nhà, hỗ trợ việc so sánh và đánh giá vị thế của từng khu vực trong bức tranh tổng thể của thành phố.
+
+
+
+---
+
+### G.4 Đánh giá
+
+* **H3: PHÁT HIỆN KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ BẤT THƯỜNG THEO SNAPSHOT MỚI NHẤT**
+1. Hiệu quả phân loại: Mô hình Z-score đã tách biệt thành công các khu vực ''siêu sang'' ra khỏi đám đông.
+2. Độ phân hóa thị trường: Độ dốc của các đường xu hướng cho thấy độ biến thiên của dữ liệu. Nếu đường của **Paris** dốc hơn hoặc trải dài hơn (Z-score lên tới 4 - 5), điều đó chứng tỏ **Paris** có sự chênh lệch giàu nghèo khốc liệt hơn **Berlin** và **Brussels**.
+3. Hạn chế: Z-score giả định dữ liệu phân phối chuẩn (hình chuông). Tuy nhiên, giá bất động sản thực tế thường lệch phải . Do đó, việc phát hiện các outlier giá thấp có thể khó khăn hơn so với outlier giá cao.
+
+* **H10: PHÂN CỤM THỊ TRƯỜNG THEO GIÁ THUÊ TRUNG VỊ, CHẤT LƯỢNG THEO SNAPSHOT MỚI NHẤT**
+1. Xu hướng chung: Thông thường, các điểm sẽ phân bố theo đường chéo từ góc dưới trái lên góc trên phải. Điều này khẳng định quy luật: Giá càng cao thì kỳ vọng chất lượng càng cao.
+2. Nhận diện cơ hội: Có các điểm thuộc nhóm ''Bình dân'' hoặc ''Trung cấp'' nhưng lại nằm ở vị trí cao bất thường trên trục Y. Đây là những khu vực có hiệu suất hoạt động tuyệt vời, khách hàng rất hài lòng dù giá không cao, do đó đây có thể là khu vực đáng để đầu tư hoặc thuê ở.
+3. Cảnh báo rủi ro: Ngược lại, có những điểm thuộc nhóm ''Hạng sang'' nhưng lại nằm thấp trên trục Y. Đây là những khu vực ''ảo giá'', đắt đỏ nhưng chất lượng trải nghiệm không tương xứng.
+
+
+
+
+<div style="page-break-after: always;"></div>
+
+
+
 
 
 <div style="text-align: center; margin-top: 60%;">
@@ -758,14 +837,14 @@ $$
 
 2. **Paris** đồng thời cũng là thị trường đắt đỏ nhất với giá thuê trung vị (Median Price) dao động từ 146€ - 161€/đêm, cao gấp rưỡi so với **Berlin** (97€ - 104€/đêm) và **Brussels** (85€ - 95€/đêm). ([H2](../figures/H02_Median_Price_Horizontal.pdf))
 
-3. Tuy nhiên, thị trường của **Paris** đắt đỏ nhưng lại cực kỳ đắt khách, điều đáng chú ý là trong mùa cao điểm (Tháng 3), độ sẵn sàng trung vị (Median Availability 90) của **Paris** lại thấp nhất (32 ngày), so với 2 thành phố **Berlin** và **Brussels** (~45 ngày). ([H3](../figures/H03_Availability_Trend.pdf))
+3. Tuy nhiên, thị trường của **Paris** đắt đỏ nhưng lại cực kỳ đắt khách, điều đáng chú ý là trong mùa cao điểm (Tháng 3), độ sẵn sàng trung vị (Median Availability 90) của **Paris** lại thấp nhất (32 ngày), so với 2 thành phố **Berlin** và **Brussels** (~45 ngày). ([H4](../figures/H04_Availability_Trend.pdf))
 
 
 ⇒ Kết luận: Điều này cho thấy **Paris** là một ''Thị trường của người bán'' (Seller's Market) - nơi nhu cầu du lịch khổng lồ chấp nhận mức giá cao, giúp người bán có lợi thế định giá. Trong khi **Berlin** và **Brussels** có sự cân bằng tốt hơn giữ cung và cầu.
 
 
 * **Mức độ chuyên nghiệp hóa và cấu trúc thị trường:**
-1. Một điểm tương phản đáng chú ý là dù **Paris** có quy mô lớn nhất, tỷ lệ chuyên nghiệp hóa (Multi-Host Rate - tỷ lệ chủ nhà quản lý từ 2 căn trở lên) lại thấp nhất (~38.2% - 40.3%). Điều này gợi ý rằng phần lớn nguồn cung tại **Paris** đến từ các các nhân hoặc hộ gia đình tận dụng căn hộ trống. Trong khi đó, **Berlin** và **Brussels** có tỷ lệ chuyên nghiệp hóa cao hơn hẳn (Berlin: ~50.5% - 54.8%, Brussels: ~50.05% - 52.4%), cho thấy sự tham gia mạnh mẽ và chi phối các đơn vị quản lý bất động sản chuyên nghiệp hoặc các nhà đầu tư tại 2 thành phố này. ([H4](../figures/H04_MultiHost_Stacked.pdf))
+1. Một điểm tương phản đáng chú ý là dù **Paris** có quy mô lớn nhất, tỷ lệ chuyên nghiệp hóa (Multi-Host Rate - tỷ lệ chủ nhà quản lý từ 2 căn trở lên) lại thấp nhất (~38.2% - 40.3%). Điều này gợi ý rằng phần lớn nguồn cung tại **Paris** đến từ các các nhân hoặc hộ gia đình tận dụng căn hộ trống. Trong khi đó, **Berlin** và **Brussels** có tỷ lệ chuyên nghiệp hóa cao hơn hẳn (Berlin: ~50.5% - 54.8%, Brussels: ~50.05% - 52.4%), cho thấy sự tham gia mạnh mẽ và chi phối các đơn vị quản lý bất động sản chuyên nghiệp hoặc các nhà đầu tư tại 2 thành phố này. ([H5](../figures/H05_MultiHost_Stacked.pdf))
 
 2. Tỷ lệ chuyên nghiệp hóa ở 2 thành phố **Berlin** và **Brussels** cao cho thấy thị trường tại nơi đây đã dịch chuyển sang mô hình ''Khách sạn hóa''. Nguồn cung không chỉ đến từ người dân chia sẻ nhà thừa mà còn bị chi phối bởi các công ty quản lý bất động sản hoặc các nhà đầu tư chuyên nghiệp. Ngược lại, tỷ lệ chuyên nghiệp hóa thấp tại **Paris** phản ảnh một thị trường vẫn giữ được bản chất của một ''Nền kinh tế chia sẻ'' (Sharing Economy). Điều này có thể là hệ quả của các quy định pháp lý chặt chẽ tại **Paris** khiến các cá nhân, tổ chức thâu tóm nhiều căn hộ để kinh doanh ngắn hạn trở nên khó khăn hơn.
 
@@ -774,7 +853,7 @@ $$
 
 * **Xu hướng tỷ lệ lấp đầy:**
 
-1. Tại **Paris**, tỷ lệ lấp đầy duy trì ở mức cao và ổn định nhất trong 3 thành phố. Sau giai đoạn giảm nhẹ vào giữa năm, tỷ lệ lấp đầy của **Paris** phục hồi rõ rệt từ cuối năm 2025 và ổn định quanh mức 55% - 60%, cho thấy nhu cầu lưu trú mạnh và mang tính bền vững. Bên cạnh đó, **Brussels** lại thể hiện mức lấp đầy trung bình, với biến động vừa phải theo mùa. Giai đoạn đầu có dao động tương đối lớn, sau đó xu hướng trở nên ổn định hơn, đặc biệt từ đầu năm 2026 khi tỷ lệ lấp đầy duy trì quanh 50% - 55%. Điều này cho thấy thị trường có quy mô nhỏ hơn nhưng tương đối ổn định. Ngoài ra, **Berlin** là thành phố có biến động mạnh nhất. Tỷ lệ lấp đầy ban đầu khá cao nhưng giảm đáng kể vào cuối năm 2025, sau đó phục hồi dần trong năm 2026. Mức lấp đầy của **Berlin** nhìn chung thấp hơn **Paris** và **Brussels**, phản ánh sự bất ổn hoặc ảnh hưởng từ các yếu tố chính sách và cung và cầu. ([H5](../figures/H05_Occupancy_Rate_LineChart.pdf))
+1. Tại **Paris**, tỷ lệ lấp đầy duy trì ở mức cao và ổn định nhất trong 3 thành phố. Sau giai đoạn giảm nhẹ vào giữa năm, tỷ lệ lấp đầy của **Paris** phục hồi rõ rệt từ cuối năm 2025 và ổn định quanh mức 55% - 60%, cho thấy nhu cầu lưu trú mạnh và mang tính bền vững. Bên cạnh đó, **Brussels** lại thể hiện mức lấp đầy trung bình, với biến động vừa phải theo mùa. Giai đoạn đầu có dao động tương đối lớn, sau đó xu hướng trở nên ổn định hơn, đặc biệt từ đầu năm 2026 khi tỷ lệ lấp đầy duy trì quanh 50% - 55%. Điều này cho thấy thị trường có quy mô nhỏ hơn nhưng tương đối ổn định. Ngoài ra, **Berlin** là thành phố có biến động mạnh nhất. Tỷ lệ lấp đầy ban đầu khá cao nhưng giảm đáng kể vào cuối năm 2025, sau đó phục hồi dần trong năm 2026. Mức lấp đầy của **Berlin** nhìn chung thấp hơn **Paris** và **Brussels**, phản ánh sự bất ổn hoặc ảnh hưởng từ các yếu tố chính sách và cung và cầu. ([H6](../figures/H06_Occupancy_Rate_LineChart.pdf))
 
 2. Điểm chung ở 3 thành phố là đều khởi đầu với tỷ lệ lấp đầy rất cao (> 80%) rồi trượt dần xuống và ổn định ở mức 50% - 60%.
 
@@ -783,9 +862,9 @@ $$
 <div style="page-break-after: always;"></div>
 
 * **Cấu trúc loại phòng đặc thù và phân khúc khách hàng mục tiêu:**
-1. Tại **Paris**, loại hình ''Entire home/apt'' (Căn hộ nguyên căn) chiếm ưu thế tuyệt đối (~90%), trong khi ''Private room'' (Phòng riêng) chỉ chiếm chưa đầy 9%. Ngược lại, **Berlin** và **Brussels** có cơ cấu tương đồng nhau, duy trì khoảng 73% - 74% thị phần cho ''Entire home/apt'' và 24% - 25% thị phần cho ''Private room''. Đặc biệt, điểm chung của 3 thành phố này là đều dành rất ít thị phần cho 2 loại hình còn lại là ''Shared room'' (Phòng chung) và ''Hotel room'' (Phòng khách sạn).  ([H6](../figures/H06_Room_Type_GroupedBar.pdf))
+1. Tại **Paris**, loại hình ''Entire home/apt'' (Căn hộ nguyên căn) chiếm ưu thế tuyệt đối (~90%), trong khi ''Private room'' (Phòng riêng) chỉ chiếm chưa đầy 9%. Ngược lại, **Berlin** và **Brussels** có cơ cấu tương đồng nhau, duy trì khoảng 73% - 74% thị phần cho ''Entire home/apt'' và 24% - 25% thị phần cho ''Private room''. Đặc biệt, điểm chung của 3 thành phố này là đều dành rất ít thị phần cho 2 loại hình còn lại là ''Shared room'' (Phòng chung) và ''Hotel room'' (Phòng khách sạn).  ([H7](../figures/H07_Room_Type_GroupedBar.pdf))
 
-2. Sự chênh lệch này định hình phân khúc khách hàng rõ rệt: **Paris** tập trung vào khách du lịch nhóm, gia đình hoặc phân khúc cao cấp đề cao sự riêng tư. Trong khi đó, **Berlin** và **Brussels** vẫn duy trì được phân khúc giá rẻ, phổ thông phục vụ tốt cho đối tượng khách hàng du lịch bụi (backpackers), sinh viên hoặc người đi công tác đơn lẻ muốn tiết kiệm chi phí. ([H8](../figures/H08_Price_Segments.pdf))
+2. Sự chênh lệch này định hình phân khúc khách hàng rõ rệt: **Paris** tập trung vào khách du lịch nhóm, gia đình hoặc phân khúc cao cấp đề cao sự riêng tư. Trong khi đó, **Berlin** và **Brussels** vẫn duy trì được phân khúc giá rẻ, phổ thông phục vụ tốt cho đối tượng khách hàng du lịch bụi (backpackers), sinh viên hoặc người đi công tác đơn lẻ muốn tiết kiệm chi phí. ([H9](../figures/H09_Price_Segments.pdf))
 
 
 ⇒ Kết luận: Airbnb tại **Paris** dường như đang cạnh tranh trực tiếp với thị trường khách sạn truyền thống (về tính riêng tư và giá cả), trong khi tại **Berlin** và **Brussels**, nó đóng vai trò bổ trợ quan trọng cho thị trường lưu trú giá rẻ.
@@ -793,12 +872,11 @@ $$
 
 
 * **Xu hướng phản hồi từ khách hàng:**
-1. **Paris** ghi nhận số lượng review cao vượt trội và tăng trưởng mạnh theo thời gian (đạt đỉnh > 70.000 review / tháng vào giữa năm 2025), phản ánh quy mô thị trường lớn và mức độ hoạt động cao của các listings Airbnb. **Berlin** thể hiện mức tăng ổn định hơn (đạt đỉnh ~15.000 review / tháng vào giữa năm 2025), với số lượng review thấp hơn **Paris** nhưng cao hơn **Brussels** trong hầu hết các giai đoạn. Trong khi đó, **Brussels** có quy mô nhỏ nhất (đạt đỉnh ~12.000 review / tháng vào giữa năm 2025), với số lượng review thấp hơn đáng kể, mặc dù vẫn cho thấy xu hướng tăng dần theo thời gian. ([H12](../figures/H12_Reviews_Trend.pdf))
+1. **Paris** ghi nhận số lượng review cao vượt trội và tăng trưởng mạnh theo thời gian (đạt đỉnh > 70.000 review / tháng vào giữa năm 2025), phản ánh quy mô thị trường lớn và mức độ hoạt động cao của các listings Airbnb. **Berlin** thể hiện mức tăng ổn định hơn (đạt đỉnh ~15.000 review / tháng vào giữa năm 2025), với số lượng review thấp hơn **Paris** nhưng cao hơn **Brussels** trong hầu hết các giai đoạn. Trong khi đó, **Brussels** có quy mô nhỏ nhất (đạt đỉnh ~12.000 review / tháng vào giữa năm 2025), với số lượng review thấp hơn đáng kể, mặc dù vẫn cho thấy xu hướng tăng dần theo thời gian. ([H14](../figures/H14_Reviews_Trend.pdf))
 
 2. Đáng chú ý, cả ba thành phố đều ghi nhận sự sụt giảm mạnh số lượng review vào giai đoạn 2020–2021, nhiều khả năng liên quan đến tác động của đại dịch COVID-19. Sau giai đoạn này, số lượng review phục hồi rõ rệt, đặc biệt tại **Paris**, cho thấy sự quay trở lại mạnh mẽ của nhu cầu du lịch và lưu trú ngắn hạn.
 
 ⇒ Kết luận: **Paris** luôn dẫn đầu về số lượng review, tiếp theo là **Berlin** và **Brussels**. Giai đoạn 2020–2021 ghi nhận sự sụt giảm mạnh của cả 3 thành phố, nhưng sau đó là quá trình phục hồi rõ rệt, mạnh mẽ.
-
 
 
 ---
@@ -814,6 +892,10 @@ $$
 * **Tăng độ chính xác về không gian địa lí:**
 1. Quy tắc `QA002_coords_out_of_bounds` đã lọc bỏ các listings nằm ngoài ranh giới hành chính thực tế của thành phố.
 2. Tác động: Giúp biểu đồ phân bố hiển thị chính xác mật độ phòng tại ác quận trung tâm, loại bỏ các điểm nhiễu (outliers).
+
+
+<div style="page-break-after: always;"></div>
+
 
 * **Tối ưu hóa hiệu suất xử lý:**
 1.  Quy tắc `QA003_duplicate_ids`, `QA005_orphaned_or_empty_reviews` đã lọc bỏ các listings có `id` trùng và các review của các listings không tồn tại.
