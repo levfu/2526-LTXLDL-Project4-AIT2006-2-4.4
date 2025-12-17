@@ -50,9 +50,9 @@
 1. Trang tải dữ liệu chính thức: https://insideairbnb.com/get-the-data/
 2. Trang tải tài liệu khám phá: https://insideairbnb.com/explore
 
-* **Ngày nộp:** 
+* **Ngày nộp:** 17/12/2025 - 23 giờ 28 phút.
 
-* **Commit hash:**
+* **Commit hash:** 10ee34b.
 
 
 
