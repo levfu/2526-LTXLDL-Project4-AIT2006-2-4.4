@@ -135,7 +135,7 @@
 
 * **Làm sạch dữ liệu khu vực - QA004:**
 1. Xóa cột thừa `neighbourhood_group`.
-2. Lấy dach sách khu vực hợp lệ từ file `neighbourhoods.csv`.
+2. Lấy danh sách khu vực hợp lệ từ file `neighbourhoods.csv`.
 3. Điều kiện: Bản ghi có `neighbourhood_cleansed` không nằm trong danh sách khu vực chuẩn.
 4. Xử lý: Không xóa bản ghi, chỉ **gắn cờ** (`qa_flag_invalid_neigh = True`).
 
@@ -840,13 +840,13 @@ $$
 3. Tuy nhiên, thị trường của **Paris** đắt đỏ nhưng lại cực kỳ đắt khách, điều đáng chú ý là trong mùa cao điểm (Tháng 3), độ sẵn sàng trung vị (Median Availability 90) của **Paris** lại thấp nhất (32 ngày), so với 2 thành phố **Berlin** và **Brussels** (~45 ngày). ([H4](../figures/H04_Availability_Trend.pdf))
 
 
-⇒ Kết luận: Điều này cho thấy **Paris** là một ''Thị trường của người bán'' (Seller's Market) - nơi nhu cầu du lịch khổng lồ chấp nhận mức giá cao, giúp người bán có lợi thế định giá. Trong khi **Berlin** và **Brussels** có sự cân bằng tốt hơn giữ cung và cầu.
+⇒ Kết luận: Điều này cho thấy **Paris** là một ''Thị trường của người bán'' (Seller's Market) - nơi nhu cầu du lịch khổng lồ chấp nhận mức giá cao, giúp người bán có lợi thế định giá. Trong khi đó, **Brussels** – với vai trò là thị trường chính – thể hiện trạng thái cân bằng hơn giữa cung và cầu, trái ngược với **Paris** là thị trường người bán rõ rệt và **Berlin** là thị trường có mức độ biến động cao hơn.
 
 
 * **Mức độ chuyên nghiệp hóa và cấu trúc thị trường:**
 1. Một điểm tương phản đáng chú ý là dù **Paris** có quy mô lớn nhất, tỷ lệ chuyên nghiệp hóa (Multi-Host Rate - tỷ lệ chủ nhà quản lý từ 2 căn trở lên) lại thấp nhất (~38.2% - 40.3%). Điều này gợi ý rằng phần lớn nguồn cung tại **Paris** đến từ các các nhân hoặc hộ gia đình tận dụng căn hộ trống. Trong khi đó, **Berlin** và **Brussels** có tỷ lệ chuyên nghiệp hóa cao hơn hẳn (Berlin: ~50.5% - 54.8%, Brussels: ~50.05% - 52.4%), cho thấy sự tham gia mạnh mẽ và chi phối các đơn vị quản lý bất động sản chuyên nghiệp hoặc các nhà đầu tư tại 2 thành phố này. ([H5](../figures/H05_MultiHost_Stacked.pdf))
 
-2. Tỷ lệ chuyên nghiệp hóa ở 2 thành phố **Berlin** và **Brussels** cao cho thấy thị trường tại nơi đây đã dịch chuyển sang mô hình ''Khách sạn hóa''. Nguồn cung không chỉ đến từ người dân chia sẻ nhà thừa mà còn bị chi phối bởi các công ty quản lý bất động sản hoặc các nhà đầu tư chuyên nghiệp. Ngược lại, tỷ lệ chuyên nghiệp hóa thấp tại **Paris** phản ảnh một thị trường vẫn giữ được bản chất của một ''Nền kinh tế chia sẻ'' (Sharing Economy). Điều này có thể là hệ quả của các quy định pháp lý chặt chẽ tại **Paris** khiến các cá nhân, tổ chức thâu tóm nhiều căn hộ để kinh doanh ngắn hạn trở nên khó khăn hơn.
+2. Tỷ lệ chuyên nghiệp hóa ở 2 thành phố **Berlin** và **Brussels** cao cho thấy thị trường tại nơi đây đã dịch chuyển sang mô hình ''Khách sạn hóa''. Nguồn cung không chỉ đến từ người dân chia sẻ nhà thừa mà còn bị chi phối bởi các công ty quản lý bất động sản hoặc các nhà đầu tư chuyên nghiệp. Ngược lại, tỷ lệ chuyên nghiệp hóa thấp tại **Paris** phản ánh một thị trường vẫn giữ được bản chất của một ''Nền kinh tế chia sẻ'' (Sharing Economy). Điều này có thể là hệ quả của các quy định pháp lý chặt chẽ tại **Paris** khiến các cá nhân, tổ chức thâu tóm nhiều căn hộ để kinh doanh ngắn hạn trở nên khó khăn hơn.
 
 ⇒ Kết luận: Người thuê tại **Berlin** và **Brussels** có xác suất cao gặp các ''Chủ nhà công nghiệp'' vận hành bài bản như doanh nghiệp, trong khi tại **Paris**, cơ hội trải nghiệm ở tại nhà của người dân địa phương vẫn chiếm đa số. 
 
@@ -857,7 +857,7 @@ $$
 
 2. Điểm chung ở 3 thành phố là đều khởi đầu với tỷ lệ lấp đầy rất cao (> 80%) rồi trượt dần xuống và ổn định ở mức 50% - 60%.
 
-⇒ Kết luận: Dữ liệu lấp đầy củng cố nhận định rằng **Paris**  thể hiện hiệu suất cao nhất và ổn định nhất, trong khi **Brussels** duy trì mức trung bình nhưng tương đối ổn định. **Berlin** cho thấy mức độ biến động lớn hơn, cho thấy thị trường này nhạy cảm hơn trước các yếu tố bên ngoài như chính sách quản lý, tính mùa vụ hoặc các điều chỉnh của thị trường.
+⇒ Kết luận: Dữ liệu lấp đầy củng cố nhận định rằng **Paris**  thể hiện hiệu suất cao nhất và ổn định nhất. **Berlin** cho thấy mức độ biến động lớn hơn, thị trường này nhạy cảm hơn trước các yếu tố bên ngoài như chính sách quản lý, tính mùa vụ hoặc các điều chỉnh của thị trường. Đối với **Brussels**, dữ liệu cho thấy mặc dù không đạt mức lấp đầy cao như **Paris**, thị trường này lại duy trì được sự ổn định theo thời gian, đặc biệt từ đầu năm 2026. Điều này phản ánh một cấu trúc cầu tương đối bền vững, ít bị sốc mạnh bởi các yếu tố bên ngoài so với **Berlin**.
 
 <div style="page-break-after: always;"></div>
 
@@ -869,8 +869,6 @@ $$
 
 ⇒ Kết luận: Airbnb tại **Paris** dường như đang cạnh tranh trực tiếp với thị trường khách sạn truyền thống (về tính riêng tư và giá cả), trong khi tại **Berlin** và **Brussels**, nó đóng vai trò bổ trợ quan trọng cho thị trường lưu trú giá rẻ.
 
-
-
 * **Xu hướng phản hồi từ khách hàng:**
 1. **Paris** ghi nhận số lượng review cao vượt trội và tăng trưởng mạnh theo thời gian (đạt đỉnh > 70.000 review / tháng vào giữa năm 2025), phản ánh quy mô thị trường lớn và mức độ hoạt động cao của các listings Airbnb. **Berlin** thể hiện mức tăng ổn định hơn (đạt đỉnh ~15.000 review / tháng vào giữa năm 2025), với số lượng review thấp hơn **Paris** nhưng cao hơn **Brussels** trong hầu hết các giai đoạn. Trong khi đó, **Brussels** có quy mô nhỏ nhất (đạt đỉnh ~12.000 review / tháng vào giữa năm 2025), với số lượng review thấp hơn đáng kể, mặc dù vẫn cho thấy xu hướng tăng dần theo thời gian. ([H14](../figures/H14_Reviews_Trend.pdf))
 
@@ -879,9 +877,10 @@ $$
 ⇒ Kết luận: **Paris** luôn dẫn đầu về số lượng review, tiếp theo là **Berlin** và **Brussels**. Giai đoạn 2020–2021 ghi nhận sự sụt giảm mạnh của cả 3 thành phố, nhưng sau đó là quá trình phục hồi rõ rệt, mạnh mẽ.
 
 
+* **Tổng kết:** **Brussels** thể hiện đặc điểm của một thị trường Airbnb có quy mô vừa phải, mức giá trung bình thấp hơn **Paris** nhưng ổn định hơn **Berlin**. Mặc dù không có lợi thế về quy mô hay mức độ đắt khách như **Paris**, **Brussels** duy trì được sự cân bằng tương đối giữa cung – cầu, mức độ chuyên nghiệp hóa cao và tỷ lệ lấp đầy ổn định. Điều này cho thấy **Brussels** là một thị trường trưởng thành, ít biến động, phù hợp với các nhà đầu tư hoặc đơn vị quản lý hướng đến hiệu suất ổn định hơn là tăng trưởng nóng. ([H15](../figures/H15_Radar_Summary.pdf))
+
+
 ---
-
-
 
 ### H.2 Đánh giá tác động của quy trình QA
 
@@ -891,7 +890,7 @@ $$
 
 * **Tăng độ chính xác về không gian địa lí:**
 1. Quy tắc `QA002_coords_out_of_bounds` đã lọc bỏ các listings nằm ngoài ranh giới hành chính thực tế của thành phố.
-2. Tác động: Giúp biểu đồ phân bố hiển thị chính xác mật độ phòng tại ác quận trung tâm, loại bỏ các điểm nhiễu (outliers).
+2. Tác động: Giúp biểu đồ phân bố hiển thị chính xác mật độ phòng tại các quận trung tâm, loại bỏ các điểm nhiễu (outliers).
 
 
 <div style="page-break-after: always;"></div>

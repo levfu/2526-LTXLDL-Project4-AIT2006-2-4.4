@@ -66,13 +66,15 @@ pandas
 numpy
 matplotlib
 seaborn
+adjustText
+scikit-learn
 ```
 
 ---
 
 ## 4. Hướng dẫn chạy
 * Bước 1: Chuẩn bị dữ liệu
-1. Tải các file listings.csv.gz, calendar.csv.gz, reviews.csv.gz và neighbourhoods.csv của 3 thành phố Brussels, Berlin và Paris từ Inside Airnb.
+1. Tải các file listings.csv.gz, calendar.csv.gz, reviews.csv.gz và neighbourhoods.csv của 3 thành phố Brussels, Berlin và Paris từ Inside Airbnb.
 2. Đặt vào thư mục theo cấu trúc:
 ```text
 /raw/<city_name>/<snapshot_date>/
@@ -204,14 +206,14 @@ paris_12_reviews_trend.pdf
 ```text
 H01_Total_Supply_All_Snapshots.pdf
 H02_Median_Price_Horizontal.pdf
-H03_Price_Anomaly_ZScore
+H03_Price_Anomaly_ZScore.pdf
 H04_Availability_Trend.pdf
 H05_MultiHost_Stacked.pdf
 H06_Occupancy_Rate_LineChart.pdf
 H07_Room_Type_GroupedBar.pdf
 H08_Price_RoomType.pdf
 H09_Price_Segments.pdf
-H10_KMeans_Price_Quality
+H10_KMeans_Price_Quality.pdf
 H11_Quality_Scores.pdf
 H12_Price_Quality_Boxplot.pdf
 H13_Top15_Neighborhoods.pdf
