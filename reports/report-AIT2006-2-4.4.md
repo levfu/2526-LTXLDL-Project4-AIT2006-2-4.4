@@ -691,7 +691,7 @@ $$
 
 ---
 
-[![H3. PHÁT HIỆN KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ BẤT THƯỜNG THEO SNAPSHOT MỚI NHẤT](../figures/H03_Price_Anomaly_ZSCORE-page-00001.jpg)](../figures/H03_Price_Anomaly_ZScore.pdf)
+[![H3. PHÁT HIỆN KHU VỰC CÓ GIÁ THUÊ TRUNG VỊ BẤT THƯỜNG THEO SNAPSHOT MỚI NHẤT](../figures/H03_Price_Anomaly_ZScore-page-00001.jpg)](../figures/H03_Price_Anomaly_ZScore.pdf)
 
 ---
 
